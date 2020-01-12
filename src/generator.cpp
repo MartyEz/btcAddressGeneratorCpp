@@ -133,6 +133,6 @@ void generateKeyPair(secp256k1_context *context, std::string &stringSeed) {
         // Generate Bech32, Segwit and Legacy addresses from pubKey
         std::vector<std::string> address = generateAddress(pub_compressed);
 
-//    printf("%s\n%s\n%s\n%s\n%s\n%s\n--------------------------------------------------------------\n", stringSeed.c_str(),s.c_str(),byteCharToHexString(pub_compressed,SHA256_PUBEXTENDED_DIGEST_LENGTH).c_str(),address[0].c_str(),address[1].c_str(),address[2].c_str());
+        printf("%s\n%s\n%s\n%s\n%s\n%s\n--------------------------------------------------------------\n", stringSeed.c_str(),s.c_str(),byteCharToHexString(pub_compressed,SHA256_PUBEXTENDED_DIGEST_LENGTH).c_str(),address[0].c_str(),address[1].c_str(),address[2].c_str());
 
 }
