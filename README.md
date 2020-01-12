@@ -23,6 +23,7 @@
 # Performances
 
 - 5 Millions generations in 48 seconds.  
+- Comment data printer to speed up compute
 
 I made the same program in GO : https://github.com/MartyEz/btcAddressGeneratorGo
  
