@@ -12,7 +12,7 @@ int main() {
 
     auto start = std::chrono::high_resolution_clock::now();
 
-    for (int j = 0; j < 5000000; ++j) {
+    for (int j = 0; j < 5000; ++j) {
         tp->sendWork(random_string(25));
     }
 
